@@ -5872,7 +5872,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2uh"
 			(at 187.96 87.63 90)
 			(effects
 				(font
