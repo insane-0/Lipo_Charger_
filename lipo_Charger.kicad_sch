@@ -5419,6 +5419,15 @@
 				(hide yes)
 			)
 		)
+		(property "link" "https://robu.in/product/cdrh104r-2-2%ce%bch-power-inductor-pack-of-5/#tab-specification"
+			(at 190.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "22"
 			(uuid "6c65faa0-eafc-4123-b5ed-c0c7c5723b5d")
 		)
