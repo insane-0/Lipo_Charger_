@@ -7173,7 +7173,7 @@
 			(at -1.555 -0.325)
 			(size 0.9 0.4)
 			(layers "F.Cu")
-			(net 13 "Net-(U1-SW2)")
+			(net 1 "GND")
 			(pintype "passive")
 			(options
 				(clearance outline)
@@ -7204,7 +7204,7 @@
 			(at 0.4 0)
 			(size 0.9 0.4)
 			(layers "F.Cu")
-			(net 1 "GND")
+			(net 13 "Net-(U1-SW2)")
 			(pintype "passive")
 			(options
 				(clearance outline)
@@ -9217,7 +9217,7 @@
 			(at -1.555 -0.325)
 			(size 0.9 0.4)
 			(layers "F.Cu")
-			(net 12 "Net-(MOSFET1-D-Pad5)")
+			(net 13 "Net-(U1-SW2)")
 			(pintype "passive")
 			(options
 				(clearance outline)
@@ -9248,7 +9248,7 @@
 			(at 0.4 0)
 			(size 0.9 0.4)
 			(layers "F.Cu")
-			(net 13 "Net-(U1-SW2)")
+			(net 12 "Net-(MOSFET1-D-Pad5)")
 			(pintype "passive")
 			(options
 				(clearance outline)
@@ -9458,6 +9458,289 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Inductor_SMD:L_10.4x10.4_H4.8"
+		(layer "F.Cu")
+		(uuid "dfaa10e6-b52a-4b6e-a0b4-208e9340f83c")
+		(at 121.62 66.58)
+		(descr "Choke, SMD, 10.4x10.4mm 4.8mm height")
+		(tags "Choke SMD")
+		(property "Reference" "L1"
+			(at 0 -6.35 0)
+			(layer "F.SilkS")
+			(uuid "1e750ab5-c306-419c-b318-f720a34ea6ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "2.2uh"
+			(at 0 6.35 0)
+			(layer "F.Fab")
+			(uuid "64d65181-7fff-428e-9344-7cf48ae01832")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a88d36e9-b77f-4345-ac0d-e772536cc886")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4af42a3-7043-41e3-8270-41cb7ea4f6f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/521e239e-6ff4-4b68-b1a3-5ec2a8620520")
+		(sheetname "/")
+		(sheetfile "lipo_Charger.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -5.3 -5.3)
+			(end 5.3 -5.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d9b4f930-92df-4163-a0f4-7a638ee3532c")
+		)
+		(fp_line
+			(start -5.3 -2.1)
+			(end -5.3 -5.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3633007a-359a-4946-9272-d171001f66f1")
+		)
+		(fp_line
+			(start -5.3 5.3)
+			(end -5.3 2.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7d370d8a-5204-4bdc-b787-5dce948a0b6f")
+		)
+		(fp_line
+			(start 5.3 -5.3)
+			(end 5.3 -2.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24967866-395f-4172-9a9a-87206f0357dc")
+		)
+		(fp_line
+			(start 5.3 2.1)
+			(end 5.3 5.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "02dc9ecd-ab94-4884-bd00-b53292f10ba3")
+		)
+		(fp_line
+			(start 5.3 5.3)
+			(end -5.3 5.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c47b9de8-ec2b-474c-88b2-f54e78b63268")
+		)
+		(fp_line
+			(start -5.75 -5.45)
+			(end -5.75 5.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "651abe9a-77b2-42cc-96fc-25eacf738114")
+		)
+		(fp_line
+			(start -5.75 5.45)
+			(end 5.75 5.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "064c2cd3-3ab7-4736-97d0-f819b1def883")
+		)
+		(fp_line
+			(start 5.75 -5.45)
+			(end -5.75 -5.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dae67cb8-14a6-4974-ae6e-576a7c6a9ce2")
+		)
+		(fp_line
+			(start 5.75 5.45)
+			(end 5.75 -5.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e9ea473b-8480-4252-89c9-f8173231ad47")
+		)
+		(fp_line
+			(start -5.2 -5.2)
+			(end -5.2 -2.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2c16a57e-25f1-4d33-9d9c-7b0a0b393ffd")
+		)
+		(fp_line
+			(start -5.2 -5.2)
+			(end 5.2 -5.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "da62306b-347c-4f2d-9378-408a546fead8")
+		)
+		(fp_line
+			(start -5.2 5.2)
+			(end -5.2 2.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "122a67c7-86e3-44d9-8a9b-a576fafa789a")
+		)
+		(fp_line
+			(start -5.2 5.2)
+			(end 5.2 5.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "321dfe27-7cdc-4c0a-9680-d148b6e045e9")
+		)
+		(fp_line
+			(start 5.2 -5.2)
+			(end 5.2 -2.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a780cdd7-afaf-430b-84b2-7d475269b25c")
+		)
+		(fp_line
+			(start 5.2 5.2)
+			(end 5.2 2.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "587874c2-f8d4-4f63-804e-003a6129b68c")
+		)
+		(fp_arc
+			(start -3.17 -3.17)
+			(mid 0 -4.483057)
+			(end 3.17 -3.17)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "be071600-5615-4b98-8610-0202e0885769")
+		)
+		(fp_arc
+			(start 3.17 3.17)
+			(mid 0 4.483057)
+			(end -3.17 3.17)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d36e80ea-637d-4e9c-aade-e324c6b73e45")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "584efb59-915b-4edd-98c8-3c2a8ad1ce9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -4.15 0)
+			(size 2.7 3.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 15 "Net-(U1-SW1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "16d2fdb7-1e56-4cec-a43d-db2dd4c32711")
+		)
+		(pad "2" smd rect
+			(at 4.15 0)
+			(size 2.7 3.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 13 "Net-(U1-SW2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "82f4bc49-ba19-46c8-94ee-171eec879522")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_10.4x10.4_H4.8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9870,7 +10153,7 @@
 	(footprint "Lipo_Charger_footprint:RSN0032B(1)"
 		(layer "F.Cu")
 		(uuid "e2ee8b14-591f-4e91-92c1-a9a712b2f5b7")
-		(at 133.699999 102.295083)
+		(at 132.739999 104.895)
 		(tags "BQ25703ARSNR ")
 		(property "Reference" "U1"
 			(at 0 0 0)
