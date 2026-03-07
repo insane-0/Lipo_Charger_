@@ -10793,6 +10793,16 @@
 		)
 		(uuid "1a19c60e-d045-4194-b2aa-7203cf12e834")
 	)
+	(label "copper_pour3"
+		(at 251.46 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "221dd52b-a550-4fe3-8f94-0d4f948a4641")
+	)
 	(label "CELL_2S"
 		(at 599.44 111.76 0)
 		(effects
@@ -10812,6 +10822,16 @@
 			(justify right bottom)
 		)
 		(uuid "295c25ab-b2e4-4c92-b407-20a30575c5ed")
+	)
+	(label "copper_pour1"
+		(at 110.49 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e6f14a6-7fe8-46c3-b4b4-288218800f62")
 	)
 	(label "CELL_3S_adc"
 		(at 328.93 364.49 90)
@@ -10952,6 +10972,16 @@
 			(justify right bottom)
 		)
 		(uuid "779a2231-6a0d-4fb9-a375-c914aedf249b")
+	)
+	(label "copper_pour2"
+		(at 218.44 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "782aa445-4317-47e5-9770-d6495f87ca22")
 	)
 	(label "CMPOUT"
 		(at 154.94 292.1 180)
