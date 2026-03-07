@@ -1757,24 +1757,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 40.64 270)
-				(length 5.08)
-				(name "SW1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -15.24 -38.1 90)
 				(length 5.08)
@@ -1811,24 +1793,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -3.81 40.64 270)
-				(length 5.08)
-				(name "BTST1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin open_collector line
 				(at 0 -38.1 90)
 				(length 5.08)
@@ -1847,24 +1811,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 1.27 40.64 270)
-				(length 5.08)
-				(name "BTST2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 5.08 -38.1 90)
 				(length 5.08)
@@ -1876,24 +1822,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 13.97 40.64 270)
-				(length 5.08)
-				(name "SW2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2046,24 +1974,6 @@
 				)
 			)
 			(pin power_in line
-				(at 41.91 2.54 180)
-				(length 5.08)
-				(name "REGN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 41.91 -2.54 180)
 				(length 5.08)
 				(name "PGND"
@@ -2164,6 +2074,98 @@
 					)
 				)
 				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BQ25703ARSNR_1_1"
+			(pin passive line
+				(at -15.24 40.64 270)
+				(length 5.08)
+				(name "SW1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -3.81 40.64 270)
+				(length 5.08)
+				(name "BTST1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 1.27 40.64 270)
+				(length 5.08)
+				(name "BTST2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 40.64 270)
+				(length 5.08)
+				(name "SW2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 41.91 2.54 180)
+				(length 5.08)
+				(name "REGN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3083,7 +3085,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "DMP3013SFV-7_1_1"
+			(pin passive line
 				(at 0 0 0)
 				(length 7.62)
 				(name "S"
@@ -3101,7 +3105,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "S"
@@ -3119,7 +3123,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "S"
@@ -3137,7 +3141,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "G"
@@ -3155,7 +3159,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 0 180)
 				(length 7.62)
 				(name "D"
@@ -3173,7 +3177,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 -2.54 180)
 				(length 7.62)
 				(name "D"
@@ -3191,7 +3195,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 -5.08 180)
 				(length 7.62)
 				(name "D"
@@ -3209,7 +3213,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 -7.62 180)
 				(length 7.62)
 				(name "D"
