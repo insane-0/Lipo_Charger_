@@ -1,4 +1,4 @@
-26769119545308911
+26770894085460340
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70574,6 +70574,13 @@ Yellow 5381 Series LED
 2
 2
 Lipo_Charger_footprint
+AMASS_XT60PW-M
+
+
+0
+4
+4
+Lipo_Charger_footprint
 POWERDI3333-8_UX_DIO-M
 
 DMP3013SFV-7 
@@ -70586,7 +70593,7 @@ RSN0032B(1)
 BQ25703ARSNR 
 0
 38
-34
+33
 Lipo_Charger_footprint
 SOT95P230X110-3N(nch low power)
 

@@ -1,0 +1,36 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C10, C11, C12, C13, C14, C15, C16, C17, C2, C3, C4, C5, C6, C7, C8, C9",0805,17,C 10uf,https://robu.in/product/10uf-10000nf-50v-capacitor-0805-smd-package-pack-of-5/#tab-specification
+"C18, C30, C31, C32, C33, C34",0805,6,1uf,https://robu.in/product/1uf-1000nf-50v-capacitor-0805-smd-package-pack-of-10/
+"C19, C21",0603,2,47nf,https://robu.in/product/47nf-50v-capacitor-0603-smd-package-pack-of-30/
+C20,0603,1,0.1uf,https://robu.in/product/0-1uf-capacitor-smdc-0603/
+"C22, C23",0805,2,33nf,https://robu.in/product/33nf-0805-surface-mount-multilayer-ceramic-capacitor-pack-of-50/
+C24,1206,1,2.2uf,https://robu.in/product/cs3216x7r225k500nri-samwha-50v-2-2uf-x7r-%C2%B110-1206-multilayer-ceramic-capacitors-mlcc-smd-smt-rohs/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWez-4uIsPU8kN7QaZXojl8Nx&gclid=Cj0KCQiAk6rNBhCxARIsAN5mQLu4P3mbwqSfoiOgoZc18y9ors1pnUlGGtfe9OsnrAWCB2ogXfLDYasaAueUEALw_wcB#tab-specification
+C25,0805,1,33pf,https://robu.in/product/33pf-0603-surface-mount-multilayer-ceramic-capacitor-pack-of-50/
+C26,0805,1,1800pf,https://robu.in/product/cdrh104r-2-2%CE%BCh-power-inductor-pack-of-5/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWeYd6KQJmaof5AqwX7G6G7RK&gclid=CjwKCAjw687NBhB4EiwAQ645dmHAlDrRVuziQAJbPZqMJFAUlKgMQ-ZthCMAKLuhHOvZczBMktniURoCJv0QAvD_BwE#tab-robu_other_tab
+C27,0603,1,100pf,https://robu.in/product/100pf-0603-surface-mount-multilayer-ceramic-capacitor-pack-of-50/
+C28,0402,1,15pf,https://robu.in/product/gjm1555c1h150fb01d-murata-electronics-50v-15pf-c0g-%c2%b11-0402-multilayer-ceramic-capacitors-mlcc-smd-smt-rohs/
+C29,0603,1,680pf,https://robu.in/product/680pf-0-68nf-50v-capacitor-0603-smd-package-pack-of-30/
+J1,AMASS_XT60PW-M,1,XT60PW-M,https://robu.in/product/amass-xt60pw30-male-connector-xt60pw-m-g-y/?gad_source=1&gad_campaignid=17427802559&gbraid=0AAAAADvLFWdmOH57O7KPf508CymjK6fEf&gclid=CjwKCAjw687NBhB4EiwAQ645dgohd97JAgTRTcWseFs2VOjpZJynpftucunJhgflPctHm7zj2Ob9ThoCzoMQAvD_BwE
+J3,JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical,1,balance_plug_4s,https://roboticsdna.in/product/5-pin-jst-male-female-pair-connector-with-crimp-terminal-contact-housing-pack-of-2/?srsltid=AfmBOoo5esS3edhxXl3joBQF2MKR2T6vDm7Wuc775a9aj8276ph4hqzP&utm_source=chatgpt.com
+J4,PinHeader_1x05_P2.54mm_Vertical,1,Conn_01x05,
+J5,PinHeader_1x04_P2.54mm_Vertical,1,Conn_01x04,
+J7,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x07,
+L1,L_10.4x10.4_H4.8,1,2.2uh,https://robu.in/product/cdrh104r-2-2%CE%BCh-power-inductor-pack-of-5/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWeYd6KQJmaof5AqwX7G6G7RK&gclid=CjwKCAjw687NBhB4EiwAQ645dmHAlDrRVuziQAJbPZqMJFAUlKgMQ-ZthCMAKLuhHOvZczBMktniURoCJv0QAvD_BwE#tab-robu_other_tab
+"MOSFET1, MOSFET2, MOSFET3, MOSFET4, MOSFET5",POWERDI3333-8_UX_DIO-M,5,DMP3013SFV-7,https://robu.in/product/dmp3013sfv-hxy-mosfet-30v-55a-1-p-channel-dfn-8l3x3-mosfets-rohs/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWcc9ic22VFoIsUrmP70-iK2S&gclid=CjwKCAiAqprNBhB6EiwAMe3yhmZg5MkbZV4v0Mz0zXMxZnOSODpvHE6NX8wy7lr8cC_BVq8gRN_WFxoCoDoQAvD_BwE
+"Q1, Q6, Q7, Q8",SOT95P230X110-3N(nch low power),4,NX7002AK_215(nch low power),https://robu.in/product/nx7002akar-nexperia-nx7002akar-power-mosfet-n-channel-60-v-190-ma-3-ohm-to-236ab-surface-mount/
+"Q2, Q3, Q4, Q5",TRANS_NVTFS010N10MCLTAG(nch high power),4,NVTFS010N10MCLTAG(high power),https://robu.in/product/nvtfs008n04c-hxy-mosfet-40v-60a-1-n-channel-dfn-8l3x3-mosfets-rohs/
+"R1, R13, R15, R16, R17, R18, R21, R24, R25, R26, R27, R28, R29, R3, R30, R31, R42, R6, R9",0805,19,10k,https://roboticsdna.in/product/10k%cf%89-thick-film-smd-resistor-0805-%c2%b15-tolerence-100-pcs/
+"R11, R12",0603,2,R(10ohm),https://robu.in/product/rc0603fr-0710rl-yageo-smd-chip-resistor-10-ohm-%C2%B1-1-100-mw-0603-1608-metric-thick-film-general-purpose/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWcc9ic22VFoIsUrmP70-iK2S&gclid=CjwKCAiAqprNBhB6EiwAMe3yhp2p3iNucUvdWl7XG0jygr1PJz7sX9FLgj0NmdbFsM6PPRNKa5W0FxoCdoMQAvD_BwE
+"R19, R20",0603,2,40.2k,https://robu.in/product/ac0603fr-0740k2l-yageo-res-thick-film-0603-40-2k-ohm-1-0-1w1-10w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/
+"R2, R37, R39, R40, R41",0603,5,8.2k,https://robu.in/product/rc0603fr-078k2l-yageo-res-thick-film-0603-8-2k-ohm-1-0-1w1-10w-%c2%b1100ppm-c-pad-smd-t-r/
+R23,0402,1,137k,https://robu.in/product/ac0402fr-07137kl-yageo-res-thick-film-0402-137k-ohm-1-0-063w1-16w-%C2%B1100ppm-c-pad-smd-t-r-automotive-aec-q200/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWckUsGFRRIu9JENF8k6hQc3U&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8Fb7RvVYpFw6ihaG1wSCJ7habpWXIudxKK5--gi5ni0UQSLs9Cxl79BoCuJcQAvD_BwE
+R32,0603,1,27k,https://robu.in/product/ac0603fr-0727kl-yageo-res-thick-film-0603-27k-ohm-1-0-1w1-10w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/
+R33,0603,1,15k,https://robu.in/product/ac0603fr-0715kl-yageo-res-thick-film-0603-15k-ohm-1-0-1w1-10w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/
+R34,0603,1,3.3k,https://robu.in/product/3-3k-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/
+"R35, R36",0603,2,39k,https://robu.in/product/ac0603fr-0739kl-yageo-res-thick-film-0603-39k-ohm-1-0-1w1-10w-%C2%B1100ppm-c-pad-smd-t-r-automotive-aec-q200/?utm_source=chatgpt.com
+"R4, R5",2512,2,0.01ohm,https://robu.in/product/0-01-ohm-3w-surface-mount-sense-resistor-pack-of-3/#tab-specification
+"R43, R44, R45, R46",2512,4,47ohm,https://robu.in/product/rc2512jk-0747rl-yageo-smd-chip-resistor-47-ohm-%C2%B1-5-1-w-2512-6432-metric-thick-film-general-purpose/?utm_source=chatgpt.com
+"R7, R8",0805,2,4.99ohm,https://robu.in/product/rc0805fr-074r99l-yageo-smd-chip-resistor-4-99-ohm-%c2%b1-1-125-mw-0805-2012-metric-thick-film-general-purpose/
+"TP1, TP2",TestPoint_Pad_2.0x2.0mm,2,TestPoint,
+TP3,TestPoint_Pad_4.0x4.0mm,1,TestPoint,
+U1,RSN0032B(1),1,BQ25703ARSNR,https://robu.in/product/bq25713rsnr-texas-instruments-3-5v24v-lithium-ion-polymer-14-qfn-32-ep4x4-battery-management-rohs/
