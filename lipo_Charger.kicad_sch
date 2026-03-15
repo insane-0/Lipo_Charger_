@@ -1726,7 +1726,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part #" "https://robu.in/product/cdrh104r-2-2%CE%BCh-power-inductor-pack-of-5/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWeYd6KQJmaof5AqwX7G6G7RK&gclid=CjwKCAjw687NBhB4EiwAQ645dmHAlDrRVuziQAJbPZqMJFAUlKgMQ-ZthCMAKLuhHOvZczBMktniURoCJv0QAvD_BwE#tab-robu_other_tab"
+			(property "LCSC Part #" "https://robu.in/product/1-8nf-1800pf-50v-capacitor-0805-smd-package-pack-of-30/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8058,6 +8058,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 233.68 163.83)
+		(end 255.27 177.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8511478-4bfb-49c7-98c4-3d43fcb87532)
+	)
 	(junction
 		(at 49.53 35.56)
 		(diameter 0)
@@ -8507,12 +8519,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b039d4e5-d230-4f47-9851-992e7886dadf")
-	)
-	(junction
-		(at 240.03 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1a98fcd-1449-41ed-b878-17d347f4010c")
 	)
 	(junction
 		(at 96.52 123.19)
@@ -12047,7 +12053,7 @@
 		(uuid "fe6b5c71-2e38-4829-aa2d-03f0144a88c2")
 	)
 	(label "SDA"
-		(at 60.96 264.16 90)
+		(at 73.66 264.16 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12097,7 +12103,7 @@
 		(uuid "1a19c60e-d045-4194-b2aa-7203cf12e834")
 	)
 	(label "copper_pour3"
-		(at 251.46 90.17 0)
+		(at 218.44 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12207,7 +12213,7 @@
 		(uuid "635094b8-b134-471a-98db-31c867850092")
 	)
 	(label "ILIM_HIZ"
-		(at 71.12 264.16 90)
+		(at 68.58 264.16 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12257,7 +12263,7 @@
 		(uuid "6ec7d564-79cd-4b34-ba6c-982cf6730d67")
 	)
 	(label "PROCHOT_N"
-		(at 63.5 264.16 90)
+		(at 60.96 264.16 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12297,7 +12303,7 @@
 		(uuid "779a2231-6a0d-4fb9-a375-c914aedf249b")
 	)
 	(label "copper_pour2"
-		(at 218.44 90.17 0)
+		(at 170.18 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12307,7 +12313,7 @@
 		(uuid "782aa445-4317-47e5-9770-d6495f87ca22")
 	)
 	(label "CHRG_OK"
-		(at 68.58 264.16 90)
+		(at 63.5 264.16 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12377,7 +12383,7 @@
 		(uuid "a876f5b6-063f-4328-9490-a0d111339ca3")
 	)
 	(label "SCL"
-		(at 58.42 264.16 90)
+		(at 71.12 264.16 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12417,7 +12423,7 @@
 		(uuid "bfad3c17-4ee4-420d-bf63-e1840a70efdc")
 	)
 	(label "CMPOUT"
-		(at 73.66 264.16 90)
+		(at 58.42 264.16 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16092,6 +16098,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Lipo_charger_sym:1800pf")
+		(at 90.17 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52135229-e772-4c3f-a945-a6ef3084f81a")
+		(property "Reference" "C26"
+			(at 93.98 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1800pf"
+			(at 93.98 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 91.1352 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "https://robu.in/product/1-8nf-1800pf-50v-capacitor-0805-smd-package-pack-of-30/"
+			(at 90.17 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bc6762b-0029-494a-9a40-35f303530367")
+		)
+		(pin "1"
+			(uuid "cd238e89-5e8e-4551-8b74-4a1207d00505")
+		)
+		(instances
+			(project ""
+				(path "/4a18423b-6328-407d-a1e3-fa6705870417"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Lipo_charger_sym:C 10uf")
 		(at 85.09 31.75 0)
 		(unit 1)
@@ -19596,92 +19681,6 @@
 	)
 	(symbol
 		(lib_id "Lipo_charger_sym:R(10k)")
-		(at 243.84 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85931cff-363a-4b8b-b469-bb4a61a02d27")
-		(property "Reference" "R42"
-			(at 243.84 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 243.84 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
-			(at 243.84 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://roboticsdna.in/product/10k%cf%89-thick-film-smd-resistor-0805-%c2%b15-tolerence-100-pcs/"
-			(at 243.84 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "https://roboticsdna.in/product/10k%cf%89-thick-film-smd-resistor-0805-%c2%b15-tolerence-100-pcs/"
-			(at 243.84 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f841c02d-8e1f-4039-a998-698f9d4f1957")
-		)
-		(pin "2"
-			(uuid "215aea4c-7e60-448d-a5e4-58e9c3825df5")
-		)
-		(instances
-			(project "lipo_Charger"
-				(path "/4a18423b-6328-407d-a1e3-fa6705870417"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Lipo_charger_sym:R(10k)")
 		(at 176.53 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22509,85 +22508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Lipo_charger_sym:1800pf")
-		(at 90.17 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c07421e1-1897-4abf-8922-e738a564166f")
-		(property "Reference" "C26"
-			(at 93.98 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1800pf"
-			(at 93.98 191.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 91.1352 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 90.17 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "https://robu.in/product/cdrh104r-2-2%CE%BCh-power-inductor-pack-of-5/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWeYd6KQJmaof5AqwX7G6G7RK&gclid=CjwKCAjw687NBhB4EiwAQ645dmHAlDrRVuziQAJbPZqMJFAUlKgMQ-ZthCMAKLuhHOvZczBMktniURoCJv0QAvD_BwE#tab-robu_other_tab"
-			(at 90.17 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c72d310-f255-4846-8760-24d1b09533d4")
-		)
-		(pin "2"
-			(uuid "a20bb8e0-ecba-44b3-9474-f8721a7796db")
-		)
-		(instances
-			(project ""
-				(path "/4a18423b-6328-407d-a1e3-fa6705870417"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Lipo_charger_sym:balance_plug_4s")
 		(at 379.73 118.11 0)
 		(unit 1)
@@ -24685,7 +24605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 66.04 269.24 0)
 			(effects
 				(font
