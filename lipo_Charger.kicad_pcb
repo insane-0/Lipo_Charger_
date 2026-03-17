@@ -27694,7 +27694,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07"
-			(at 0 17.62 270)
+			(at 0 17.62 90)
 			(layer "F.Fab")
 			(uuid "8533119a-f019-42e8-a705-fe1eea0719f5")
 			(effects
@@ -27705,7 +27705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a972386d-dba3-4f84-830b-a04a8ade258d")
@@ -27717,7 +27717,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78b7ffc4-be38-4877-a911-b26428e17da9")
