@@ -1,4 +1,4 @@
-26770894584465806
+26772668518753343
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70580,6 +70580,13 @@ AMASS_XT60PW-M
 0
 4
 4
+Lipo_Charger_footprint
+BlackPill_STLINK
+STM32F4-based development board with ST-LINK header
+stm32 arm
+0
+40
+40
 Lipo_Charger_footprint
 POWERDI3333-8_UX_DIO-M
 

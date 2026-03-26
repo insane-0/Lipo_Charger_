@@ -13208,26 +13208,6 @@
 		)
 		(uuid "ae521fa6-1d3e-47a8-8774-a8df2965ae59")
 	)
-	(text_box "stm32 dev board\n"
-		(exclude_from_sim no)
-		(at 72.39 449.58 0)
-		(size 207.01 116.84)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4a1308b9-144e-45c6-b277-e4fd6f0027ed")
-	)
 	(junction
 		(at 120.65 109.22)
 		(diameter 0)
@@ -18125,7 +18105,7 @@
 		(uuid "5faa8cf7-b616-4e63-b494-3a62358e95fc")
 	)
 	(label "4SGATE"
-		(at 130.81 515.62 0)
+		(at 130.81 523.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18285,7 +18265,7 @@
 		(uuid "6ec7d564-79cd-4b34-ba6c-982cf6730d67")
 	)
 	(label "3SGATE"
-		(at 130.81 518.16 0)
+		(at 130.81 520.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18595,7 +18575,7 @@
 		(uuid "987958ce-ab0b-45d0-919e-d4b68ba57d7c")
 	)
 	(label "2SGATE"
-		(at 130.81 520.7 0)
+		(at 130.81 518.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18975,7 +18955,7 @@
 		(uuid "f0c1ba57-5e80-4247-809b-51617637a026")
 	)
 	(label "1SGATE"
-		(at 130.81 523.24 0)
+		(at 130.81 515.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
